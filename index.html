@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hangman.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="start">
+        <div start_img>
+            <img id="helloimg1" src="./Images/hello.gif" alt="HELLO">
+            <img id="helloimg2" src="./Images/hello2.gif" alt="HELLO">
+        </div>
+        <button id="btn2"><b>START</b></button>
+    </section>
+
+
+    <section class="container">
+
+
+        <section class="section1">
+
+            <div class="heading">
+                <h2>CHOOSE ONE</h2>
+            </div>
+
+            <div class="option">
+                <button class="option-button">ANIMALS</button>
+                <button class="option-button">FRUITS</button>
+                <button class="option-button">NAME</button>
+            </div>
+
+        </section>
+
+        <section class="section2">
+            <div class="letterbox"></div>
+            <div class="dash"></div>
+        </section>
+
+        <section class="section3">
+            <canvas id="canvas"></canvas>
+        </section>
+
+    </section>
+
+    <section class="section4">
+        <div id="section4top"></div>
+        <div id="smileclass">
+            <img id="smile" src="./Images/giphy.webp" alt="">
+            <img id="sad" src="./Images/giphy (1).webp" alt="">
+        </div>
+        <div id="section4middle"><span></span></div>
+        <div class="lastdiv">
+            <button id="newgame"><b>NEW GAME</b></button>
+        </div>
+    </section>
+
+
+    <script src="hangman.js"></script>
+</body>
+
+</html>
